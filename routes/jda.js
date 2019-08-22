@@ -74,4 +74,9 @@ router.get('/tabs/:item', (req, res) => {
     setTimeout(() => res.send(resData[req.params.item]), 2000);
 })
 
+// fetch all comments
+router.get('/comments', function (req, res) {
+  res.send(resData.Comment);
+})
+
 module.exports = router;
