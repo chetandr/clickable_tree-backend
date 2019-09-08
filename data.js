@@ -175,7 +175,33 @@ const Location = [
         }]
     }
 ]
-
+const Comment = [
+  {
+    'id': 1,
+    'user': {
+      'firstName':'Alex',
+      'lastName':'Taylor',
+      'picture': 'img/man.svg'
+    },
+    'comment':'Lorem ipsum dolor sit amet, consectetur adipisicing elit.',
+    'resPros':'Lorem ipsum dolor sit amet, consectetur adipisicing elit.',
+    'resCons':'Lorem ipsum dolor sit amet, consectetur adipisicing elit.',
+    'scenarioRating':'img/like.svg',
+    'approval': 'NA'
+  },
+  {
+    'id': 2,
+    'user': {
+      'firstName':'John',
+      'lastName':'Brown',
+      'picture': 'img/man.svg'
+    },
+    'comment':'Lorem ipsum dolor sit amet, consectetur adipisicing elit.',
+    'resPros':'Lorem ipsum dolor sit amet, consectetur adipisicing elit.',
+    'resCons':'Lorem ipsum dolor sit amet, consectetur adipisicing elit.',
+    'scenarioRating':'img/dislike.svg',
+    'approval': 'NA'
+  }];
 const workflowContext = [
 
     {
@@ -300,9 +326,8 @@ const workflowContext = [
         location: null,
         resources: null
     },
-
 ]
 
 const Customer = Country;
 const Resource = Location;
-module.exports = {Country, Location, Customer, Resource, workflowContext};
+module.exports = {Country, Location, Customer, Resource, Comment, workflowContext};
