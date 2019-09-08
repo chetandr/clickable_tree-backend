@@ -3,6 +3,10 @@ const resData = require('../data');
 var express = require('express');
 var router = express.Router();
 
+router.get('/workflowcontext', (req, res) => {
+    res.send(resData.workflowContext);
+})
+
 /* GET home page. */
 router.get('/', function (req, res, next) {
     res.render('index', {

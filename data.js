@@ -175,7 +175,6 @@ const Location = [
         }]
     }
 ]
-
 const Comment = [
   {
     'id': 1,
@@ -202,9 +201,133 @@ const Comment = [
     'resCons':'Lorem ipsum dolor sit amet, consectetur adipisicing elit.',
     'scenarioRating':'img/dislike.svg',
     'approval': 'NA'
-  },
+  }];
+const workflowContext = [
+
+    {
+        businessUnit:'BU-1',
+        productGroup:'PG-1',
+        productFamily: 'PF-1',
+        items: 'I1',
+        location: 'L1',
+        resources:'R1'
+    },
+
+    {
+        businessUnit: 'BU-2',
+        productGroup: 'PG-2',
+        productFamily: 'PF-2',
+        items: 'I2',
+        location: 'L2',
+        resources: 'R2'
+    },
+  
+    {
+        businessUnit: null,
+        productGroup: 'PG-3',
+        productFamily: 'PF-3',
+        items: 'I3',
+        location: 'L3',
+        resources: 'R3'
+
+    }, {
+        businessUnit: null,
+        productGroup: null,
+        productFamily: 'PF-4',
+        items: 'I4',
+        location: 'L4',
+        resources: 'R4'
+    },
+    {
+        businessUnit: null,
+        productGroup: null,
+        productFamily: 'PF-5',
+        items: 'I5',
+        location: 'L5',
+        resources: 'R5'
+    },
+    {
+        businessUnit: null,
+        productGroup: null,
+        productFamily: null,
+        items: 'I6',
+        location: null,
+        resources: null
+    },
+    {
+        businessUnit: null,
+        productGroup: null,
+        productFamily: null,
+        items: 'I7',
+        location:null,
+        resources: null
+    },
+    {
+        businessUnit: null,
+        productGroup: null,
+        productFamily: null,
+        items: 'I8',
+        location: null,
+        resources: null
+    },
+    {
+        businessUnit: null,
+        productGroup: null,
+        productFamily: null,
+        items: 'I4',
+        location: null,
+        resources: null
+    },
+    {
+        businessUnit: null,
+        productGroup: null,
+        productFamily: null,
+        items: 'I9',
+        location: null,
+        resources: null
+    },
+    {
+        businessUnit: null,
+        productGroup: null,
+        productFamily: null,
+        items: 'I10',
+        location: null,
+        resources: null
+    },
+    {
+        businessUnit: null,
+        productGroup: null,
+        productFamily: null,
+        items: 'I11',
+        location: null,
+        resources: null
+    },
+    {
+        businessUnit: null,
+        productGroup: null,
+        productFamily: null,
+        items: 'I12',
+        location: null,
+        resources: null
+    },
+    {
+        businessUnit: null,
+        productGroup: null,
+        productFamily: null,
+        items: 'I13',
+        location: null,
+        resources: null
+    },
+    {
+        businessUnit: null,
+        productGroup: null,
+        productFamily: null,
+        items: 'I14',
+        location: null,
+        resources: null
+    },
 ]
 
 const Customer = Country;
 const Resource = Location;
-module.exports = {Country, Location, Customer, Resource, Comment};
+module.exports = {Country, Location, Customer, Resource, Comment, workflowContext};
