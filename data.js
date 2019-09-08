@@ -175,159 +175,87 @@ const Location = [
         }]
     }
 ]
-const Comment = [
-  {
-    'id': 1,
-    'user': {
-      'firstName':'Alex',
-      'lastName':'Taylor',
-      'picture': 'img/man.svg'
-    },
-    'comment':'Lorem ipsum dolor sit amet, consectetur adipisicing elit.',
-    'resPros':'Lorem ipsum dolor sit amet, consectetur adipisicing elit.',
-    'resCons':'Lorem ipsum dolor sit amet, consectetur adipisicing elit.',
-    'scenarioRating':'img/like.svg',
-    'approval': 'NA'
-  },
-  {
-    'id': 2,
-    'user': {
-      'firstName':'John',
-      'lastName':'Brown',
-      'picture': 'img/man.svg'
-    },
-    'comment':'Lorem ipsum dolor sit amet, consectetur adipisicing elit.',
-    'resPros':'Lorem ipsum dolor sit amet, consectetur adipisicing elit.',
-    'resCons':'Lorem ipsum dolor sit amet, consectetur adipisicing elit.',
-    'scenarioRating':'img/dislike.svg',
-    'approval': 'NA'
-  }];
-const workflowContext = [
 
-    {
-        businessUnit:'BU-1',
-        productGroup:'PG-1',
-        productFamily: 'PF-1',
-        items: 'I1',
-        location: 'L1',
-        resources:'R1'
-    },
-
-    {
-        businessUnit: 'BU-2',
-        productGroup: 'PG-2',
-        productFamily: 'PF-2',
-        items: 'I2',
-        location: 'L2',
-        resources: 'R2'
-    },
-  
-    {
-        businessUnit: null,
-        productGroup: 'PG-3',
-        productFamily: 'PF-3',
-        items: 'I3',
-        location: 'L3',
-        resources: 'R3'
-
-    }, {
-        businessUnit: null,
-        productGroup: null,
-        productFamily: 'PF-4',
-        items: 'I4',
-        location: 'L4',
-        resources: 'R4'
-    },
-    {
-        businessUnit: null,
-        productGroup: null,
-        productFamily: 'PF-5',
-        items: 'I5',
-        location: 'L5',
-        resources: 'R5'
-    },
-    {
-        businessUnit: null,
-        productGroup: null,
-        productFamily: null,
-        items: 'I6',
-        location: null,
-        resources: null
-    },
-    {
-        businessUnit: null,
-        productGroup: null,
-        productFamily: null,
-        items: 'I7',
-        location:null,
-        resources: null
-    },
-    {
-        businessUnit: null,
-        productGroup: null,
-        productFamily: null,
-        items: 'I8',
-        location: null,
-        resources: null
-    },
-    {
-        businessUnit: null,
-        productGroup: null,
-        productFamily: null,
-        items: 'I4',
-        location: null,
-        resources: null
-    },
-    {
-        businessUnit: null,
-        productGroup: null,
-        productFamily: null,
-        items: 'I9',
-        location: null,
-        resources: null
-    },
-    {
-        businessUnit: null,
-        productGroup: null,
-        productFamily: null,
-        items: 'I10',
-        location: null,
-        resources: null
-    },
-    {
-        businessUnit: null,
-        productGroup: null,
-        productFamily: null,
-        items: 'I11',
-        location: null,
-        resources: null
-    },
-    {
-        businessUnit: null,
-        productGroup: null,
-        productFamily: null,
-        items: 'I12',
-        location: null,
-        resources: null
-    },
-    {
-        businessUnit: null,
-        productGroup: null,
-        productFamily: null,
-        items: 'I13',
-        location: null,
-        resources: null
-    },
-    {
-        businessUnit: null,
-        productGroup: null,
-        productFamily: null,
-        items: 'I14',
-        location: null,
-        resources: null
-    },
-]
+const kpiItemList = [{
+    "valuePrefix": "",
+    "value": 63,
+    "valueSuffix": "",
+    "growthPrefix": "",
+    "growth": 12,
+    "growthSuffix": "%",
+    "label": "CUSTOMIZABLE",
+    "color": "#574EB9"
+},
+{
+    "valuePrefix": "",
+    "value": 9863,
+    "valueSuffix": "",
+    "growthPrefix": "",
+    "growth": "",
+    "growthSuffix": "",
+    "label": "IDEATION CONCEPT",
+    "color": "#89EE47"
+},
+{
+    "valuePrefix": "$",
+    "value": 25,
+    "valueSuffix": "m",
+    "growthPrefix": "+",
+    "growth": 2,
+    "growthSuffix": "%",
+    "label": "IGNORE NUMBERS",
+    "color": "#574EB9"
+},
+{
+    "valuePrefix": "",
+    "value": 54,
+    "valueSuffix": "%",
+    "growthPrefix": "",
+    "growth": 53,
+    "growthSuffix": "%",
+    "label": "MEASURE 4",
+    "color": "#89EE47"
+},
+{
+    "valuePrefix": "",
+    "value": 521,
+    "valueSuffix": "%",
+    "growthPrefix": "",
+    "growth": -5,
+    "growthSuffix": "%",
+    "label": "MEASURE 4",
+    "color": "#89EE47"
+},{
+    "valuePrefix": "",
+    "value": 633,
+    "valueSuffix": "",
+    "growthPrefix": "",
+    "growth": 12,
+    "growthSuffix": "%",
+    "label": "CUSTOMIZABLE",
+    "color": "#574EB9"
+},
+{
+    "valuePrefix": "",
+    "value": 98633,
+    "valueSuffix": "",
+    "growthPrefix": "",
+    "growth": "",
+    "growthSuffix": "",
+    "label": "IDEATION CONCEPT",
+    "color": "#89EE47"
+},
+{
+    "valuePrefix": "$",
+    "value": 253,
+    "valueSuffix": "m",
+    "growthPrefix": "+",
+    "growth": 2,
+    "growthSuffix": "%",
+    "label": "IGNORE NUMBERS",
+    "color": "#574EB9"
+}]
 
 const Customer = Country;
 const Resource = Location;
-module.exports = {Country, Location, Customer, Resource, Comment, workflowContext};
+module.exports = {Country, Location, Customer, Resource, kpiItemList};
