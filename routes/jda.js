@@ -3,10 +3,6 @@ const resData = require('../data');
 var express = require('express');
 var router = express.Router();
 
-router.get('/workflowcontext', (req, res) => {
-    res.send(resData.workflowContext);
-})
-
 /* GET home page. */
 router.get('/', function (req, res, next) {
     res.render('index', {
@@ -36,6 +32,10 @@ router.get('/tabs', (req, res) => {
     ];
 
     res.send(itemList);
+})
+
+router.get('/kpiimpact', (req, res) => {
+    res.send(resData.kpiItemList);
 })
 
 router.get('/tabs/:item', (req, res) => {
@@ -78,9 +78,8 @@ router.get('/tabs/:item', (req, res) => {
     setTimeout(() => res.send(resData[req.params.item]), 2000);
 })
 
-// fetch all comments
-router.get('/comments', function (req, res) {
-  res.send(resData.Comment);
-})
+router.post('/modal', (req, res) => {
+
+});
 
 module.exports = router;
