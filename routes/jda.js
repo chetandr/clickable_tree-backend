@@ -38,6 +38,18 @@ router.get('/tabs', (req, res) => {
     res.send(itemList);
 })
 
+router.get('/kpiimpact', (req, res) => {
+    res.send(resData.kpiItemList);
+})
+
+// fetch all comments
+router.get('/comments', function (req, res) {
+    res.send(resData.Comment);
+  })
+  
+  router.get('/workflowcontext', (req, res) => {
+      res.send(resData.workflowContext);
+  })
 router.get('/tabs/:item', (req, res) => {
     const item = req.params.item;
 
@@ -78,9 +90,17 @@ router.get('/tabs/:item', (req, res) => {
     setTimeout(() => res.send(resData[req.params.item]), 2000);
 })
 
+router.post('/modal', (req, res) => {
+
+});
+
 // fetch all comments
 router.get('/comments', function (req, res) {
   res.send(resData.Comment);
 })
+
+router.get('/gridData', function (req, res) {
+    res.send(resData.gridData);
+  })
 
 module.exports = router;
