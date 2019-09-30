@@ -722,3 +722,100 @@ module.exports = {
 	kpiItemList,
 	gridData
 };
+            'label': 'Pernambuco',
+            'value' : 'Pernambuco',
+            'children' : [{
+                'label': 'Arcoverde',
+                'value' : 'Arcoverde',
+                'children' : [{
+                    'label': 'Porto',
+                    'value' : 'Porto',
+                }]
+            }]
+        }]
+    }
+]
+
+const kpiItemList = [{
+    "valuePrefix": "",
+    "value": 63,
+    "valueSuffix": "",
+    "growthPrefix": "",
+    "growth": 12,
+    "growthSuffix": "%",
+    "label": "CUSTOMIZABLE",
+    "color": "#574EB9"
+},
+{
+    "valuePrefix": "",
+    "value": 9863,
+    "valueSuffix": "",
+    "growthPrefix": "",
+    "growth": "",
+    "growthSuffix": "",
+    "label": "IDEATION CONCEPT",
+    "color": "#89EE47"
+},
+{
+    "valuePrefix": "$",
+    "value": 25,
+    "valueSuffix": "m",
+    "growthPrefix": "+",
+    "growth": 2,
+    "growthSuffix": "%",
+    "label": "IGNORE NUMBERS",
+    "color": "#574EB9"
+},
+{
+    "valuePrefix": "",
+    "value": 54,
+    "valueSuffix": "%",
+    "growthPrefix": "",
+    "growth": 53,
+    "growthSuffix": "%",
+    "label": "MEASURE 4",
+    "color": "#89EE47"
+},
+{
+    "valuePrefix": "",
+    "value": 521,
+    "valueSuffix": "%",
+    "growthPrefix": "",
+    "growth": -5,
+    "growthSuffix": "%",
+    "label": "MEASURE 4",
+    "color": "#89EE47"
+},{
+    "valuePrefix": "",
+    "value": 633,
+    "valueSuffix": "",
+    "growthPrefix": "",
+    "growth": 12,
+    "growthSuffix": "%",
+    "label": "CUSTOMIZABLE",
+    "color": "#574EB9"
+},
+{
+    "valuePrefix": "",
+    "value": 98633,
+    "valueSuffix": "",
+    "growthPrefix": "",
+    "growth": "",
+    "growthSuffix": "",
+    "label": "IDEATION CONCEPT",
+    "color": "#89EE47"
+},
+{
+    "valuePrefix": "$",
+    "value": 253,
+    "valueSuffix": "m",
+    "growthPrefix": "+",
+    "growth": 2,
+    "growthSuffix": "%",
+    "label": "IGNORE NUMBERS",
+    "color": "#574EB9"
+}]
+
+const Customer = Country;
+const Resource = Location;
+module.exports = {Country, Location, Customer, Resource, kpiItemList};
