@@ -83,7 +83,7 @@ router.get('/tabs/:item', (req, res) => {
         childItems = [];
         itemList.push(productItem);
     }
-    setTimeout(() => res.send(resData[req.params.item]), 2000);
+    res.send(resData['Items']);
 })
 
 router.post('/modal', (req, res) => {
