@@ -8,6 +8,8 @@ var cors = require('cors');
 var indexRouter = require('./routes/index');
 var usersRouter = require('./routes/users');
 var jdaRouter = require('./routes/jda');
+var jdaRouter = require('./routes/jda');
+var sparqJDARoutes = require('./routes/jda/sparq');
 
 var app = express();
 
@@ -23,7 +25,7 @@ app.use(express.static(path.join(__dirname, 'public')));
 app.use(cors());
 app.use('/', indexRouter);
 app.use('/users', usersRouter);
-app.use('/jda', jdaRouter);
+app.use('/jda/sparq', sparqJDARoutes);
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
