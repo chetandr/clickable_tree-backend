@@ -10,6 +10,10 @@ router.get('/', function (req, res, next) {
     });
 });
 
+router.get('/resourceUtil', (req, res) => {
+    res.send(resData.resourceUtilConfig);
+})
+
 router.get('/tabs', (req, res) => {
     const item = req.params.item;
 
