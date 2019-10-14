@@ -8,6 +8,9 @@ const demandprofile = require("./data/executeBasicQuery/demandprofile");
 const demand = require("./data/executeAggregateQuery/demand");
 const resource = require("./data/executeAggregateQuery/resource");
 const buffer = require("./data/executeAggregateQuery/buffer");
+const stockConfig = require("./data/charts/stockConfig");
+const demandChartConfig = require("./data/charts/demandChartConfig");
+const resourceUtilConfig = require("./data/charts/resourceUtilConfig");
 
 router.post("/executeBasicQuery", (req, res) => {
 	switch (req.body.name) {
@@ -43,6 +46,16 @@ router.post("/executeAggregateQuery", (req, res) => {
 
 router.post("/", (req, res) => {
 	res.send("Welcome ");
+});
+
+router.get("/stockexception", (req, res) => {
+	res.send(stockConfig);
+});
+router.get("/demandchart", (req, res) => {
+	res.send(demandChartConfig);
+});
+router.get("/resourceUtil", (req, res) => {
+	res.send(resourceUtilConfig);
 });
 
 module.exports = router;
