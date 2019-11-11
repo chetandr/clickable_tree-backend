@@ -24,10 +24,10 @@ module.exports = {
                   "value": "-848"
               },
       {
-                  "value": "0"
+                  "value": null
               },
               {
-                  "value": "0"
+                  "value": null
               },
       {
                   "value": "600"
@@ -53,10 +53,10 @@ module.exports = {
                   "value": "-638"
               },
       {
-                  "value": "0"
+                  "value": null
               },
               {
-                  "value": "0"
+                  "value": null
               },
       {
                   "value": "500"
@@ -81,10 +81,10 @@ module.exports = {
                   "value": "-323"
               },
       {
-                  "value": "0"
+                  "value": null
               },
               {
-                  "value": "0"
+                  "value": null
               },
       {
                   "value": "400"
@@ -109,10 +109,10 @@ module.exports = {
                   "value": "-211"
               },
       {
-                  "value": "0"
+                  "value": null
               },
               {
-                  "value": "0"
+                  "value": null
               },
       {
                   "value": "500"
@@ -134,13 +134,13 @@ module.exports = {
                   "value": "1000"
               },
               {
-                  "value": "0"
+                  "value": null
               },
       {
                   "value": "136"
               },
               {
-                  "value": "0"
+                  "value": null
               },
       {
                   "value": "400"
@@ -162,10 +162,10 @@ module.exports = {
                   "value": "1000"
               },
               {
-                  "value": "0"
+                  "value": null
               },
       {
-                  "value": "0"
+                  "value": null
               },
               {
                   "value": "523"
@@ -190,10 +190,10 @@ module.exports = {
                   "value": "1000"
               },
               {
-                  "value": "0"
+                  "value": null
               },
       {
-                  "value": "0"
+                  "value": null
               },
               {
                   "value": "752"
@@ -218,10 +218,10 @@ module.exports = {
                   "value": "1000"
               },
               {
-                  "value": "0"
+                  "value": null
               },
       {
-                  "value": "0"
+                  "value": null
               },
               {
                   "value": "786"
@@ -246,10 +246,10 @@ module.exports = {
                   "value": "1000"
               },
               {
-                  "value": "0"
+                  "value": null
               },
       {
-                  "value": "0"
+                  "value": null
               },
               {
                   "value": "842"
